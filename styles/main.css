@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.calculadora {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calc {
+    background-color: brown;
+    width: 320px;
+    height: 463px;
+    margin: auto;
+}
+.display {
+    width: 100%;
+    height: 140px;
+}
+
+.display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.response {
+    display: block;
+    width: 100%;
+    height: 70%;
+}
+
+.outher{
+    display: block;
+    width: 100%;
+    height: 70%;
+}
+
+.answer {
+    height: 30%;
+    text-align: end;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px;
+}
+.input {
+    display: block;
+    height: 30%;
+    width: 100%;
+}
+
+.view {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    text-align: end;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.handle-numbers {
+    color: white;
+}
+.handle-numbers article {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+}
+.handle-numbers article div{
+    width: 24%;
+    display: inline-block;
+    background: rgb(146, 74, 74);
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.handle-numbers article div:hover{
+    background: rgb(90, 46, 46) ;
+}
+
+.handle-numbers article .sinal {
+    background: rgb(90, 46, 46) !important;
+    font-size: 25px;
+}
+.handle-numbers article .sinal:hover {
+    background: rgb(146, 74, 74) !important;
+}
+.handle-numbers article .igual {
+    background: rgb(255, 60, 60) !important;
+    font-size: 25px;
+}
+
+.exclude {
+    border: 2px solid white;
+    padding: 0px 5px 0px 5px;
+    font-size: 12px;
+    border-radius: 20%;
+}
+
+::placeholder{
+    color: black;
+}
